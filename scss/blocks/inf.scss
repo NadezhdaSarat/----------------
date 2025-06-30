@@ -1,0 +1,18 @@
+@import '../variables';
+
+.inf-block {
+    display: grid;
+    background: $PrimaryBlue100;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 10vw;
+    } 
+
+    &box {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .inf__text__item{
+        color: $GrayscaleWhite;
+    }
